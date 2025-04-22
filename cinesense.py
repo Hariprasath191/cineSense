@@ -8,10 +8,10 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Ensure NLTK resources are downloaded
-"""nltk.download("punkt")
+nltk.download("punkt")
 nltk.download("stopwords")
 nltk.download("wordnet")
-"""
+
 # Load the trained model
 try:
     model = joblib.load("sentiment_model_svm.pkl")
